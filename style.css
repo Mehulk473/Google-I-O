@@ -1,0 +1,358 @@
+*,html,body{
+    font-family: Google Sans, arial, sans-serif;;
+}
+
+.main1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.main1a{
+   position: relative;
+   bottom: 18px;
+   right: 130px;
+    cursor: pointer;
+}
+.main1b{
+    position: relative;
+    right: 350px;
+    top: 8px;
+    bottom: 5px;
+    word-spacing: 20px;
+    font-weight: 500;
+    font-family: Google Sans, arial, sans-serif;;
+    cursor: pointer;
+}
+.main1c{
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+}
+.main1c select{
+    border: none;
+}
+.main2{
+    display: flex;
+}
+.main2a{
+    height: 420px;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+    font-weight: 700;
+}
+.main2a input:hover{
+    background-color: lightskyblue;
+}
+.main2a h2{
+    font-size: 50px;
+}
+.main2a p{
+    font-size: 20px;
+}
+.main2a p,h2,input{
+    margin-left: 40px;
+}
+.main2a input{
+    background-color: #428EFF;
+    padding: 15px;
+    border-radius: .75rem;
+    font-size: 20px;
+    word-spacing:5px ;
+}
+.main2b{
+    height: 420px;
+    width: 50%;
+    border: 1px solid black;
+    margin-right: 20px;
+    background-color: black;
+    border-top-right-radius: .75rem;
+    border-bottom-right-radius: .75rem;
+}
+.main3{
+    display: flex;
+}
+.main3a{
+    display: flex;
+    height: 360px;
+    width: 50%;
+    border: 2px solid black;
+    margin-left: 20px;
+    background-color: lightgray;
+    border-radius: .75rem;
+    font-size: 20px;
+}
+.main3a1 input:hover{
+    background-color:  #428EFF;
+}
+.main3a1 h3{
+    font-size: 30px;
+}
+.main3a1 h3,p,input{
+    margin-left: 30px;
+}
+.main3a1 input{
+    border: 2px solid black;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: .75rem;
+    font-size: 20px;
+    word-spacing:10px ;
+}
+.main3a1 img{
+    margin-top: 80px;
+    margin-right: 15px;
+    height: 220px;
+    width: 300px;
+}
+.main3b{
+    display: flex;
+    height: 360px;
+    width: 50%;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #428EFF;
+    border-radius: .75rem;
+    font-size: 20px;
+}
+.main3b1 input:hover{
+    background-color:  whitesmoke;
+}
+.main3b1 h3{
+    font-size: 30px;
+}
+.main3b1 h3,p,input{
+    margin-left: 30px;
+}
+.main3b1 input{
+    border: 2px solid black;
+    background-color:  #428EFF;
+    padding: 15px;
+    border-radius: .75rem;
+    font-size: 20px;
+    word-spacing:10px ;
+    margin-top: 48px;
+}
+.main3b1 img{
+    margin-top: 80px;
+    margin-right: 15px;
+    height: 220px;
+    width: 300px;
+}
+.main4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main4a{
+    height: 220px;
+    width: 300px;
+    padding: 30px;
+    cursor: pointer;
+}
+.main4b{
+    height: 220px;
+    width: 300px;
+    padding: 30px;
+    cursor: pointer;
+}
+.main4c{
+    height: 220px;
+    width: 300px;
+    padding: 30px;
+    cursor: pointer;
+}
+.main4a:hover{
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.main4b:hover{
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.main4c:hover{
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.main4a p{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    right: 30px;
+}
+.main4b p{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    right: 30px;
+}
+.main4c p{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    right: 30px;
+}
+.main5a{
+    display: flex;
+}
+.main5a p{
+    font-size: 50px;
+}
+.main5a a{
+    text-decoration: none;
+    position: relative;
+    left: 450px;
+    top: 75px;
+}
+.main5b{
+    display: flex;
+    cursor: pointer;
+}
+.main5b1{
+    height: 400px;
+    width: 50%;
+    margin-left: 30px;
+    border-radius: .75rem;
+    padding: 15px;
+    font-size: 18px;
+}
+.main5b2{
+    height: 400px;
+    width: 50%;
+    margin-right: 30px;
+    border-radius: .75rem;
+    padding: 15px;
+    font-size: 18px;
+}
+.main5b h4{
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    bottom: 25px;
+}
+.main5b p{
+    position: relative;
+    bottom: 60px;
+    right: 25px;
+}
+.main5b1:hover{
+    border: 2px solid black;
+}
+.main5b2:hover{
+    border: 2px solid black;
+}
+.main5c{
+    display: flex;
+    cursor: pointer;
+}
+.main5c1{
+    height: 400px;
+    width: 50%;
+    margin-left: 30px;
+    border-radius: .75rem;
+    padding: 15px;
+    font-size: 18px;
+}
+.main5c2{
+    height: 400px;
+    width: 50%;
+    margin-right: 30px;
+    border-radius: .75rem;
+    padding: 15px;
+    font-size: 18px;
+}
+.main5c p{
+    position: relative;
+    right: 32px;
+    bottom: 50px;
+}
+.main5c h4{
+    font-weight: 500;
+    font-size: 35px;
+    position: relative;
+    bottom: 15px;
+}
+.main5c1:hover{
+    border: 2px solid black;
+}
+.main5c2:hover{
+    border: 2px solid black;
+}
+.main6a{
+    display: flex;
+}
+.main6a p{
+    font-size: 50px;
+}
+.main6a a{
+    text-decoration: none;
+    position: relative;
+    top: 80px;
+    left: 700px;
+}
+.main6b{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.main6b1{
+    width: 33%;
+    height: 200px;
+    background-color: rgb(232 234 237);
+    border-radius: .75rem;
+    padding: 25px;
+}
+.main6b2{
+    width: 33%;
+    height: 200px;
+    background-color: rgb(232 234 237);
+    border-radius: .75rem;
+    padding: 25px;
+    margin-left: 15px;
+}
+.main6b3{
+    width: 33%;
+    height: 200px;
+    background-color: rgb(232 234 237);
+    border-radius: .75rem;
+    padding: 25px;
+    margin-left: 15px;
+}
+.main6b p{
+    position: relative;
+    right: 35px;
+    bottom: 15px;
+}
+.main6b h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+.main7{
+    height: 380px;
+    width: 1250px;
+    border: 2px solid black;
+    margin: 25px;
+    background-color: black;
+    border-radius: 1.5rem;
+}
+.main7 p{
+    color: white;
+    font-size: 80px;
+    position: relative;
+    bottom: 60px;
+}
+.main7 img{
+    height: 450px;
+    position: relative;
+    bottom: 330px;
+}
+
+
+
+
+
